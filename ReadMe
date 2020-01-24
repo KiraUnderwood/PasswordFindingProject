@@ -1,0 +1,12 @@
+Hyperskill Project: Password Hacker
+sockets, itertools, json, datetime
+
+The tasks implemented in the folder "hacking_my_part":
+- open connection to the server
+- try all possible combinations [a-z0-9]+ of different length  and try if server accepts it as a password
+- read typical logins and passwords from the files and send them in a json format to the server as auth info
+- capitalize in different combinations the passwords from the file and try to connect with them
+- measure the server response time and generate password based on the alleged response time vulnerability
+
+
+Other folders are education system's checks (creation of the server on the local host and starting tests execution).
